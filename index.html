@@ -9,6 +9,7 @@
         My first PWA
     </title>
     <link rel="stylesheet" type="text/css" href="styles/inline.css">
+    <link rel="preload" href="https://unpkg.com/axios/dist/axios.min.js" as="script"></link>
 </head>
 
 <body>
@@ -17,7 +18,7 @@
     </header>
     <main class="main">
         <section class="">
-            <input type="file" accept="image/*" onchange=""></input>
+            <input type="file" accept="image/*" id="fileUpload"></input>
         </section>
         <section  class="">
             <div>
@@ -26,7 +27,7 @@
         </section>
     </main>
 <script src="app/app.js" async></script>
-
+<script src="https://unpkg.com/axios/dist/axios.min.js" ></script>
 </body>
 
 </html>

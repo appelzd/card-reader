@@ -1,0 +1,13 @@
+{
+  "name": "card-reader",
+  "version": "0.0.1.0",
+  "description": "",
+  "license": "",
+  "devDependencies": {
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
